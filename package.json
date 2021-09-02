@@ -1,0 +1,27 @@
+{
+  "name": "serverless-ts-apollo-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "serverless offline",
+    "deploy": "serverless deploy",
+    "undeploy": "serverless remove"
+  },
+  "dependencies": {
+    "apollo-datasource-rest": "^3.2.0",
+    "apollo-server-lambda": "^3.2.0",
+    "graphql": "^15.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwks-rsa": "^2.0.4"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.83",
+    "@types/jsonwebtoken": "^8.5.5",
+    "@types/node": "^16.7.10",
+    "serverless": "^2.55.0",
+    "serverless-offline": "^8.0.0",
+    "serverless-plugin-typescript": "^1.2.0",
+    "typescript": "^4.3.5"
+  }
+}
